@@ -1,0 +1,6 @@
+<table id="resp-table">
+  <tr><td>Email</td><td>Ip addr</td><td>Date</td></tr>
+  <% @data.each do |d| %>
+  <%= sprintf('<tr><td>%s</td><td>%s</td><td>%s</td></tr>',h(d['email']),d['ip_addr'],d['created_at']) %>
+  <% end %>
+</table>

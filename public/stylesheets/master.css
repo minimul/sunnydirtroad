@@ -1,0 +1,30 @@
+
+body { background:url(/images/body-background.jpg);margin:0;padding:0; }
+
+#content { width:630px;margin-left:auto;margin-right:auto; }
+
+#header span,#problem span,#solution span,#interested span { display:none; }
+#header { background:url(/images/header.png) no-repeat top center;height:110px;margin-top:20px; }
+#problem { background:url(/images/problem.png) no-repeat;height:26px; }
+#solution { background:url(/images/solution.png) no-repeat;height:26px; }
+#interested { background:url(/images/interested.png) no-repeat;height:152px; }
+
+span.obs { direction:rtl;unicode-bidi:bidi-override; }
+
+#footer { background:url(/images/footer-background.png) repeat-x bottom left;height:600px;margin-top:25px 0 0 0;padding:0; }
+#footer-body { background:url(/images/tree-house.png) no-repeat bottom left;height:600px; }
+
+p { font:400 18px Verdana; }
+input { font:400 24px Arial;padding:5px; }
+button { font:400 24px Arial; }
+
+a,a:link,a:visited,a:hover { color:black; }
+
+h1#post-back { padding:30px;background:#FFC166;margin:0;font-family:Arial;text-align:center; }
+
+#resp-table { margin:20px; }
+#resp-table tr:first-child { background:gray; }
+#resp-table td { font-family:Arial; }
+
+
+
