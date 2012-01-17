@@ -1,4 +1,3 @@
-require 'rubygems'
 require 'sinatra'
 
 root_dir = File.dirname(__FILE__)
@@ -13,5 +12,5 @@ log = File.new('sinatra.log','a')
 $stdout.reopen(log)
 $stderr.reopen(log)
 
-require 'app'
+require './app'
 run Sinatra::Application

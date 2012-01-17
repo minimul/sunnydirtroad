@@ -1,4 +1,3 @@
-require 'rubygems'
 require 'sqlite3'
 require 'logger'
 require 'rack-flash'
